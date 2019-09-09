@@ -1,9 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "css-layout-debugger",
-  "version": "1.0.1",
+  "name": "CSS Layout Debugger",
+  "version": "1.0.0",
   "background": {
     "scripts": ["background.js"]
+  },
+  "developer": {
+    "name": "Vince Picone",
+    "url": "https://vincepic.one"
+  },
+  "description": "Adds dynamic backgrounds and outlines to assist layout debugging.",
+  "icons": {
+    "48": "icons/active.svg",
+    "96": "icons/active.svg"
   },
   "browser_action": {
     "default_title": "Favourite colour option",
